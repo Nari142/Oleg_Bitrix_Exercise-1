@@ -32,8 +32,9 @@ $this->addExternalCss("/css/common.css");
 						<div class="article-item__title"><a href="#"><?= isset($arItem['NAME'])? $arItem['NAME'] : '' ; ?></a></div>
 						<div class="article-item__content"><?= isset($arItem['PREVIEW_TEXT'])? $arItem['PREVIEW_TEXT'] : '' ; ?></div>
 					</div>
+				</div>
 			<?php endforeach; ?>
-	</div>
+
 	</div>
 	</body>
 <?php endif; ?>
