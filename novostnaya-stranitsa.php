@@ -1,9 +1,13 @@
+
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новостная страница");
-?><?$APPLICATION->IncludeComponent(
+$APPLICATION->SetAdditionalCSS("bitrix/templates/books/components/bitrix/news.list/official1/css/common.css");
+?>
+
+<?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
-	"",
+	"official1",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_SECTIONS_CHAIN" => "Y",
@@ -27,7 +31,7 @@ $APPLICATION->SetTitle("Новостная страница");
 		"FIELD_CODE" => array("",""),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "3",
+		"IBLOCK_ID" => "22",
 		"IBLOCK_TYPE" => "news",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"INCLUDE_SUBSECTIONS" => "Y",
