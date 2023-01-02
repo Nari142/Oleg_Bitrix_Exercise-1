@@ -33,7 +33,12 @@ $this->addExternalCss("/css/common.css");
 						<div class="article-item__content"><?= isset($arItem['PREVIEW_TEXT'])? $arItem['PREVIEW_TEXT'] : '' ; ?></div>
 					</div>
 				</div>
+<<<<<<< HEAD:local/templates/books/components/bitrix/news.list/official1/template.php
 			<?php endforeach; ?>	
+=======
+			<?php endforeach; ?>
+
+>>>>>>> 95bdbb281e346ba5fcb25137d1ae6f1790d9281d:bitrix/templates/books/components/bitrix/news.list/official1/template.php
 	</div>
 	</body>
 <?php endif; ?>
