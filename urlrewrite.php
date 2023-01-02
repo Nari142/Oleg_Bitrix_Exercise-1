@@ -80,20 +80,20 @@ $arUrlRewrite=array (
     'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
-  7 => 
-  array (
-    'CONDITION' => '#^/content/articles/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/content/articles/index.php',
-    'SORT' => 100,
-  ),
   0 => 
   array (
     'CONDITION' => '#^/stssync/calendar/#',
     'RULE' => '',
     'ID' => 'bitrix:stssync.server',
     'PATH' => '/bitrix/services/stssync/calendar/index.php',
+    'SORT' => 100,
+  ),
+  7 => 
+  array (
+    'CONDITION' => '#^/content/articles/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/content/articles/index.php',
     'SORT' => 100,
   ),
   15 => 
