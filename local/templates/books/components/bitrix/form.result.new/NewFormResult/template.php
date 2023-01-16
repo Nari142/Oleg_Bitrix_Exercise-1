@@ -67,8 +67,6 @@ if ($arResult["isFormTitle"])
 		{
 			
 	?>
-		
-		
 			    <div class="input contact-form__input">
 				<label class="input__label" for="<?=$words_ar[$count_n]?>">
 

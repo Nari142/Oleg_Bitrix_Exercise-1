@@ -8,6 +8,20 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
+		"Новая страница", 
+		"/novaya-stranitsa.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/novosti.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
 		"Профиль", 
 		"/personal/", 
 		Array(), 
@@ -45,13 +59,6 @@ $aMenuLinks = Array(
 	Array(
 		"Типовые примеры", 
 		"/examples/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Новости", 
-		"/novostnaya-stranitsa.php", 
 		Array(), 
 		Array(), 
 		"" 
