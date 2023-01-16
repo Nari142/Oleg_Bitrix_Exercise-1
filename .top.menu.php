@@ -8,13 +8,6 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Новая страница", 
-		"/novaya-stranitsa.php", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
 		"Новости", 
 		"/novosti.php", 
 		Array(), 
